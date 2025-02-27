@@ -231,5 +231,10 @@ label {
 	margin: 0.5rem;
 	color: #878787;
 }
+
+#input-age-verification {
+	align-items: center;
+	display: flex;
+}
 /* ===== STATE STYLES ======= */
 
