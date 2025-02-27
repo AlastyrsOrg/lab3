@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: "Bookman Old Style", Georgia, serif; /* 1 custom font */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -203,7 +203,13 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
+form {
+	box-sizing: content-box;
+	background-color: #808588;
+	max-width: 500px;
+	max-height: 500px;
+	margin: auto;
+}
 
 /* ===== STATE STYLES ======= */
 
