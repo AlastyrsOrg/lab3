@@ -206,7 +206,7 @@ label {
 /* layout styles */
 form {
 	box-sizing: content-box;
-	background-color: #222222;
+	background-color: #333333;
 	max-width: 500px;
 	max-height: 500px;
 	margin: auto;
@@ -236,5 +236,9 @@ label {
 	align-items: center;
 	display: flex;
 }
-/* ===== STATE STYLES ======= */
 
+/* ===== STATE STYLES ======= */
+/* media queries */
+@media screen and (min-width: 768px) {
+	
+}
