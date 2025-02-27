@@ -203,12 +203,21 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+/* layout styles */
 form {
 	box-sizing: content-box;
 	background-color: #808588;
 	max-width: 500px;
 	max-height: 500px;
 	margin: auto;
+	padding: 1.5rem;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+	color: #D9DDDC;
+	padding: 0.5rem;
 }
 
 /* ===== STATE STYLES ======= */
